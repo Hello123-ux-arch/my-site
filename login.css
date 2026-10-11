@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Jersey 10", "Montserrat", "sans-serif";
+    max-width: 1280px;
+    min-width: 1280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#back {
+    margin-top: 20px;
+    position: relative;
+    right: 50px;
+    bottom: 50px;
+}
+.main__text {
+    font-size: 64px;
+    font-weight: 200;
+    position: relative;
+    left: 420px;
+    top: 70px;
+}
+.input__first {
+    position: relative;
+    top: 250px;
+    left: 50px;
+    width: 450px;
+    height: 80px;
+    background-color: #D8D8D8;
+    border: none;
+    border-radius: 3%;
+    font-size: 22px;
+    color: #5D5D5D;
+    font-family: "Montserrat";
+    letter-spacing: 5px;
+    text-align: center;
+}
+.input__second {
+    position: relative;
+    top: 370px;
+    right: 408px;
+    width: 450px;
+    height: 80px;
+    background-color: #D8D8D8;
+    border: none;
+    border-radius: 3%;
+    font-size: 24px;
+    color: #5D5D5D;
+    font-family: "Montserrat";
+    letter-spacing: 5px;
+    text-align: center;
+}
+.box-1 {
+    position: relative;
+    top: 410px;
+    left: 52px;
+    width: 450px;
+    height: 80px;
+    background-color: black;
+    border-radius: 15%;
+}
+.text__login {
+    padding-right: 0;
+    margin-right: 0;
+    color: white;
+    position: relative;
+    top: 350px;
+    left: 240px;
+    font-size: 36px;
+    text-decoration: none;
+}
+.text {
+    position: relative;
+    top: 470px;
+    left: 60px;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat";
+}
